@@ -16,4 +16,4 @@ class Ai_analysis_log(models.Model):
         db_table = 'ai_analysis_logs'
     
     def __str__(self):
-        return self.title
+        return self.image_path
