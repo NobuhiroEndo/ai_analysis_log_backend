@@ -1,11 +1,11 @@
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from .views import AiAnalysisLogsViewSet
+from .views import AiAnalysisLogsCreateAPIView
 
 router = routers.DefaultRouter()
-router.register('list', AiAnalysisLogsViewSet)
+router.register('list', AiAnalysisLogsCreateAPIView)
 
 urlpatterns = [
-    path('', include(router.urls))
+    path('create/', AiAnalysisLogsCreateAPIView.as_view(), name='ai_analysis_logs_create'),
 ]
