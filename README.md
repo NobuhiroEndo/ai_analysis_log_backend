@@ -18,3 +18,5 @@
 8. Route53
 10. Lambda(モックAPIに使用)
 11. Api Gateway(モックAPIに使用)
+### ■ 構成略図
+![ai_analysis_log構成略図](https://github.com/februar-END/ai_analysis_log_backend/assets/41630247/0bb90938-1e0f-4d58-9516-d8c24e28bef2)
