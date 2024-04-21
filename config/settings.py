@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'config.urls'
 
 CORS_ALLOWED_ORIGINS= [
-    'http://localhost:5173',
+    'https://februar.org',
 ]
 
 CORS_ALLOW_HEADERS = (
